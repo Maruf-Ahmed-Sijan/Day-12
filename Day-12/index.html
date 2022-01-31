@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Day-12</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<section class="py-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 mx-auto bg-info text-dark">
+                <div class="form-group w-25">
+                    <label for="name">First name</label>
+                    <input type="text" id="name" class="form-control" placeholder="first name">
+                </div>
+                <form>
+                    <div class="form-group w-50">
+                        <label for="name1">Last name</label>
+                        <input type="text" id="name1" class="form-control" placeholder="Enter your last name">
+                    </div>
+                    <div class="form-group w-75">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" class="form-control" placeholder="Enter your Email">
+                    </div>
+                    <div class="form-group ">
+                        <label for="password">Password</label>
+                        <input type="password" id="password" class="form-control" placeholder="Enter your Password">
+
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone Number</label>
+                        <input type="number" id="phone" class="form-control" placeholder="Enter your Phone number">
+                    </div>
+                    <div class="form-group">
+                        <label for="address">Address</label>
+                        <textarea  name="" id="address" cols="15" rows="5" class="form-control" placeholder="Write something about our company"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="district" id="district">Distric</label>
+                        <select name="gazipur" id="" class="form-control">
+                            <option value="" disabled selected><--select a district--></option>
+                            <optgroup label="dhaka district">
+                                <option value="gazipur">Gazipur</option>
+                                <option value="khulna">Khulna</option>
+                            </optgroup>
+                            <optgroup label="Rangpur District">
+                                <option value="tanggail">Tanggail</option>
+                                <option value="Dhaka">Dhaka</option>
+                            </optgroup>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="gender" id="gender">Gender</label>
+                        <div class="px-2">
+                            <label for="name" class="form-inline">
+                                <input type="radio" value="male" name="gender" class="mr-2"> male
+
+                            </label>
+                            <label for="" class="form-inline">
+                                <input type="radio" value="female"  name="gender" class="mr-2">Female
+                            </label>
+                            <label for="" class="form-inline">
+                                <input type="radio" value="third gender"  name="gender" class="mr-2">Others
+
+                            </label>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="img">Image</label>
+                        <input type="file" id="img">
+                    </div>
+                    <div class="form-group">
+                        <label for="date of birth" id="date of birth">date of birth</label>
+                        <input type="date">
+                    </div>
+                    <div class="form-group">
+                        <label for="">
+                            <input type="checkbox" class="mr-2">I agree with terms and coditions
+                        </label>
+                    </div>
+                    <div class="form-group">
+                        <input type="submit" class="btn btn-warning" value="submit">
+                    </div>
+                </form>
+            </div>
+            <div class="col-md-6">
+                <form action="">
+                    <div class="form-group w-50">
+                        <label for="name1">Last name</label>
+                        <input type="text" id="name1" class="form-control" placeholder="Enter your last name">
+                    </div>
+                    <div class="form-group w-75">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" class="form-control" placeholder="Enter your Email">
+                    </div>
+                    <div class="form-group ">
+                        <label for="password">Password</label>
+                        <input type="password" id="password" class="form-control" placeholder="Enter your Password">
+
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone Number</label>
+                        <input type="number" id="phone" class="form-control" placeholder="Enter your Phone number">
+                    </div>
+                    <div class="form-group">
+                        <label for="address">Address</label>
+                        <textarea  name="" id="address" cols="15" rows="5" class="form-control" placeholder="Write something about our company"></textarea>
+                    </div>
+                </form>
+            </div>
+
+
+
+        </div>
+    </div>
+</section>
+<section>
+    <table class="table table-hover">
+        <thead>
+        <tr>
+            <th scope="col">#</th>
+            <th scope="col">First</th>
+            <th scope="col">Last</th>
+            <th scope="col">Handle</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <th scope="row">1</th>
+            <td>Maruf</td>
+            <td>sara</td>
+            <td>siju</td>
+        </tr>
+        <tr>
+            <th scope="row">2</th>
+            <td>Sakin</td>
+            <td>Sara</td>
+            <td>Sijan</td>
+        </tr>
+        <tr>
+            <th scope="row">3</th>
+            <td colspan="2">Larry the Bird</td>
+            <td>@xoxo</td>
+        </tr>
+        </tbody>
+    </table>
+</section>
+
+
+
+
+<script src="js/jquery-3.6.0.min.js"></script>
+<script src="js/bootstrap.bundle.js"></script>
+</body>
+</html>
